@@ -184,7 +184,6 @@ body {
   color: var(--dark);
 }
 .priorities-item {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -193,7 +192,6 @@ body {
 /*------------------------ what are we doing----------------- */
 .activities-item {
   padding-bottom: 72px;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -237,7 +235,6 @@ body {
 .team-item {
   padding-top: 120px;
   padding-bottom: 72px;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -254,7 +251,6 @@ body {
   color: var(--dark);
 }
 .job-titel {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
@@ -306,7 +302,6 @@ footer {
   border-radius: 4px;
   color: var(--primary-brand);
   padding: 12px 24px;
-
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -328,7 +323,6 @@ footer {
 }
 .project-item {
   margin: 0;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
