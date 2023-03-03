@@ -1,196 +1,156 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <title>WebStudio</title>
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    <!-- ===================navigation================== -->
     <header>
-      <nav class="menu">
-        <a class="logo link" href="index.html"
+      <nav>
+        <a class="link logo" href="./index.html"
           ><span class="accent">Web</span>Studio</a
         >
         <ul class="link">
           <li>
-            <a class="link navigation" href=""> Студія</a>
+            <a class="link page-navigation" href="index.html">Studio</a>
           </li>
           <li>
-            <a class="link navigation curent" href="portfolio.html"
-              >Портфоліо</a
+            <a class="link page-navigation current" href="portfolio.html"
+              >Portfolio</a
             >
           </li>
           <li>
-            <a class="link navigation" href="">Контакти</a>
+            <a class="link page-navigation" href="">Contacts</a>
           </li>
         </ul>
       </nav>
-      <ul class="link">
-        <li>
-          <a class="link connection" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="link connection" href="tel:+380961111111"
-            >+38-096-111-11-11</a
-          >
-        </li>
-      </ul>
-    </header>
-    <main>
-      <section class="project">
-        <h1 class="visually-hidden">Наші проекти</h1>
-
-        <ul class="link project-button">
-          <li>
-            <button class="project-button-tipe" type="button">Усі</button>
-          </li>
-          <li>
-            <button class="project-button-tipe" type="button">Веб-сайти</button>
-          </li>
-          <li>
-            <button class="project-button-tipe" type="button">Додатки</button>
-          </li>
-          <li>
-            <button class="project-button-tipe" type="button">Дизайн</button>
-          </li>
-          <li>
-            <button class="project-button-tipe" type="button">Маркетинг</button>
-          </li>
-        </ul>
-
+      <address class="connection">
         <ul class="link">
           <li>
-            <img
-              src="./images/projects/texnochryak.jpg"
-              alt="ноутбук"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-name">Технокряк</h2>
-            <p class="project-item">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/projects/new.jpg"
-              alt="граютьу баскетбол"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-name">Постер New Orlean vs Golden Star</h2>
-            <p class="project-item">Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="./images/projects/seafood.jpg"
-              alt="реклама ресторану"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-name">Ресторан Seafood</h2>
-            <p class="project-item">Додаток</p>
-          </li>
-          <li>
-            <img
-              src="./images/projects/prime.jpg"
-              alt="навушники"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-name">Проєкт Prime</h2>
-            <p class="project-item">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/projects/boxes.jpg"
-              alt="дві коробочки"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-name">Проєкт Boxes</h2>
-            <p class="project-item">Додаток</p>
-          </li>
-          <li>
-            <img
-              src="./images/projects/inspiration.jpg"
-              alt="монітор"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-name">Inspiration has no Borders</h2>
-            <p class="project-item">Веб-сайт</p>
-          </li>
-          <li>
-            <img
-              src="./images/projects/limited.jpg"
-              alt="книга"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-name">Видання Limited Edition</h2>
-            <p class="project-item">Дизайн</p>
-          </li>
-          <li>
-            <img
-              src="./images/projects/lab.jpg"
-              alt="реклама"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-name">Проєкт LAB</h2>
-            <p class="project-item">Маркетинг</p>
-          </li>
-          <li>
-            <img
-              src="./images/projects/growing.jpg"
-              alt="ноутбук"
-              width="370"
-              height="294"
-            />
-            <h2 class="project-name">Growing Business</h2>
-            <p class="project-item">Додаток</p>
-          </li>
-        </ul>
-      </section>
-    </main>
-    <!-- підвал -->
-    <footer>
-      <a class="footer-logo link" href="index.html"
-        ><span class="accent">Web</span>Studio</a
-      >
-      <address class="footer-addres">
-        <ul class="link">
-          <li>
-            <a
-              class="link direction"
-              href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              >м. Київ, пр-т Лесі Украінки, 26</a
-            >
-          </li>
-
-          <li>
-            <a class="link footer-connection" href="mailto:info@devstudio.com"
+            <a class="link contacts" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="link footer-connection" href="tel:+380961111111"
-              >+38-096-111-11-11</a
+            <a class="link contacts" href="tel:+110001111111"
+              >+11-(000)-111-11-11</a
             >
           </li>
         </ul>
       </address>
+    </header>
+    <main>
+      <!-- =====================our projects=================== -->
+      <section class="project">
+        <h1 class="visually-hidden">our projects</h1>
+        <ul class="link">
+          <li><button type="button" class="project-button">All</button></li>
+          <li>
+            <button type="button" class="project-button">Web Site</button>
+          </li>
+          <li><button type="button" class="project-button">App</button></li>
+          <li><button type="button" class="project-button">Design</button></li>
+          <li>
+            <button type="button" class="project-button">Marketing</button>
+          </li>
+        </ul>
+        <ul class="link">
+          <li class="project-titel">
+            <a href="#" class="link"
+              ><img src="./images/projeсts/banking.jpg" alt="app" />
+              <h2 class="project-name">Banking App Interface Concept</h2>
+              <p class="project-item">App</p></a
+            >
+          </li>
+          <li class="project-titel">
+            <a href="#" class="link">
+              <img src="./images/projeсts/cashless.jpg" alt="pay with phone" />
+              <h2 class="project-name">Cashless Payment</h2>
+              <p class="project-item">Marketing</p></a
+            >
+          </li>
+          <li class="project-titel">
+            <a href="#" class="link">
+              <img src="./images/projeсts/meditaion.jpg" alt="laptop" />
+              <h2 class="project-name">Meditaion App</h2>
+              <p class="project-item">App</p></a
+            >
+          </li>
+          <li class="project-titel">
+            <a href="#" class="link">
+              <img
+                src="./images/projeсts/taxi.jpg"
+                alt="handson the steering wheel of a car"
+              />
+              <h2 class="project-name">Taxi Service</h2>
+              <p class="project-item">Marketing</p></a
+            >
+          </li>
+          <li class="project-titel">
+            <a href="#" class="link"
+              ><img src="./images/projeсts/screen.jpg" alt="Illustrations" />
+              <h2 class="project-name">Screen Illustrations</h2>
+              <p>Design</p></a
+            >
+          </li>
+          <li class="project-titel">
+            <a href="#" class="link"
+              ><img src="./images/projeсts/online.jpg" alt="smiling girl" />
+              <h2 class="project-name">Online Courses</h2>
+              <p class="project-item">Marketing</p></a
+            >
+          </li>
+          <li class="project-titel">
+            <a href="#" class="link">
+              <img src="./images/projeсts/instagram.jpg" alt="Stories" />
+              <h2 class="project-name">Instagram Stories Concept</h2>
+              <p class="project-item">Design</p></a
+            >
+          </li>
+          <li class="project-titel">
+            <a href="#" class="link"
+              ><img src="./images/projeсts/organic.jpg" alt="food in a bag" />
+              <h2 class="project-name">Organic Food</h2>
+              <p class="project-item">Web Site</p></a
+            >
+          </li>
+          <li class="project-titel">
+            <a href="#" class="link">
+              <img
+                src="./images/projeсts/fresh.jpg"
+                alt="pouring milk into coffee"
+              />
+              <h2 class="project-name">Fresh Coffee</h2>
+              <p class="project-item">Web Site</p></a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <!-- ====================footer=================== -->
+    <footer>
+      <a class="link logo-footer" href="./index.html"
+        ><span class="accent">Web</span>Studio</a
+      >
+      <p class="footer-item">
+        Increase the flow of customers and sales for your business with digital
+        marketing & growth solutions.
+      </p>
     </footer>
   </body>
 </html>
