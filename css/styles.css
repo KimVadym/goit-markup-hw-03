@@ -1,0 +1,217 @@
+:root {
+  --brend-color: #2196f3;
+  --main-text-color: #212121;
+  --logo-color: black;
+  --conection-color: #757575;
+  --main-color: #ffffff;
+  --hero-colar: #2f303a;
+}
+
+body {
+  background-color: var(--main-color);
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: var(--main-text-color);
+}
+
+.link {
+  list-style: none;
+  text-decoration: none;
+}
+.accent {
+  color: var(--brend-color);
+}
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--logo-color);
+}
+.navigation {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.navigation:hover,
+.navigation:focus {
+  color: var(--brend-color);
+}
+.navigation.curent {
+  color: var(--brend-color);
+}
+
+.connection {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--conection-color);
+}
+.connection:hover,
+.connection:focus {
+  color: var(--brend-color);
+}
+
+/*======================== заголовок================ */
+.hero {
+  background: var(--hero-colar);
+}
+.hero-main {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.service {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-color);
+  background: var(--brend-color);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.service:hover,
+.service:focus {
+  background: #188ce8;
+}
+/*==================== наші переваги=============== */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.advantage-name {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.advantage-about {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--conection-color);
+}
+/* -----------чим ми займаємося -------------------*/
+.titel {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* --------------наша команда---------------------- */
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.job-titel {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--conection-color);
+}
+/*------------------- підвал---------------------- */
+footer {
+  background-color: var(--hero-colar);
+}
+.footer-logo {
+  color: var(--main-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.footer-addres {
+  font-style: normal;
+}
+.direction {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-color);
+}
+
+.direction:hover,
+.direction:active {
+  color: var(--brend-color);
+}
+.footer-connection {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-connection:hover,
+.footer-connection:active {
+  color: var(--brend-color);
+}
+
+/*-------------------- ПОРТФОЛІО------------------ */
+
+/*--------------------  кнопки------------------- */
+.project-button-tipe {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  background: #f5f4fa;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.project-button-tipe:hover,
+.project-button-tipe:focus {
+  background: var(--brend-color);
+  color: var(--main-color);
+}
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--conection-color);
+}
