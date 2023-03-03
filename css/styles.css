@@ -116,6 +116,7 @@ body {
 /* -----------------hero-------------- */
 .hero {
   background-color: var(--dark);
+  margin: 0;
 }
 .hero-container {
 }
@@ -291,8 +292,13 @@ footer {
   padding-bottom: 100px;
 }
 /*----------------------------- portfolio-------------------- */
+/* ==============header========= */
+.portfolio-line {
+  border: 1px solid var(--accent);
+}
 
 /*---------------------------- our project-------------------- */
+
 .project-button {
   font-family: inherit;
   cursor: pointer;
@@ -329,4 +335,11 @@ footer {
 }
 .project-titel {
   background: var(--main);
+}
+.btn-menu {
+  display: flex;
+  justify-content: center;
+}
+.btn-menu-item:not(:last-child) {
+  margin-right: 24px;
 }
