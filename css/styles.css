@@ -11,23 +11,67 @@
   --hero-background: rgba(46, 47, 66, 0.7);
   --main: #ffffff;
 }
-body {
-  font-family: "Roboto", sans-serif;
-  background: var(--main);
-  color: var(--dark);
+/*  =================nulling styles===================== */
+h1,
+h2,
+h3,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-left: 0;
 }
 .link {
   list-style: none;
   text-decoration: none;
 }
+/* ===============================container================= */
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* ===================body===================== */
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--main);
+  color: var(--dark);
+}
+
 .page-navigation.current {
   color: var(--pressed-state);
 }
-/* --------------heder------------- */
+/* --------------header------------- */
+.header-page {
+  display: flex;
+  align-items: center;
+}
+.header-page-nav {
+  display: flex;
+  align-items: center;
+}
+.header-page-menu {
+  display: flex;
+  align-items: center;
+}
+.header-page-connect {
+  display: flex;
+  align-items: center;
+}
+
 .accent {
   color: var(--primary-brand);
 }
 .logo {
+  margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -36,6 +80,10 @@ body {
   text-transform: uppercase;
   color: var(--dark);
 }
+.menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
 .page-navigation {
   font-weight: 500;
   font-size: 16px;
@@ -49,8 +97,11 @@ body {
 }
 .connection {
   font-style: normal;
+  margin-left: auto;
 }
-
+.contacts.mail {
+  margin-right: 40px;
+}
 .contacts {
   font-weight: 400;
   font-size: 16px;
@@ -65,9 +116,14 @@ body {
 /* -----------------hero-------------- */
 .hero {
   background-color: var(--dark);
-  height: 600px;
+}
+.hero-container {
 }
 .hero-name {
+  padding-top: 188px;
+
+  padding-bottom: 48px;
+
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -77,6 +133,7 @@ body {
   width: 496px;
 }
 .hero-button {
+  padding-bottom: 188px;
   background: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -97,6 +154,17 @@ body {
 }
 
 /*---------------------top priorities ------------------ */
+
+.priorities {
+  display: flex;
+}
+.priorities-page:not(:last-child) {
+  padding-right: 24px;
+}
+.priorities-page {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -125,6 +193,7 @@ body {
 }
 /*------------------------ what are we doing----------------- */
 .activities-item {
+  padding-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -133,18 +202,42 @@ body {
   text-transform: capitalize;
   color: var(--dark);
 }
+.doing-img {
+  padding-bottom: 120px;
+}
+.doing-img:not(:last-child) {
+  padding-right: 24px;
+}
+
+.doing-page {
+  display: flex;
+}
 /*-------------------------------- our team----------------------- */
 .team {
   background-color: var(--light);
 }
+
+.team-section {
+  display: flex;
+}
+
 .team-titel {
+  margin-bottom: 120px;
   background-color: var(--main);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+.team-titel:not(:last-child) {
+  margin-right: 24px;
+}
+.team-page {
+  padding: 32px 16px;
+}
 
 .team-item {
+  padding-top: 120px;
+  padding-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -177,20 +270,25 @@ footer {
 .logo-footer {
   color: var(--light);
   font-family: "Raleway";
-
   font-weight: 800;
   font-size: 18px;
   line-height: 1.16;
-
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .footer-item {
-  font-size: 16px;
+  padding-top: 18px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent);
   width: 264px;
+}
+.footer-container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 /*----------------------------- portfolio-------------------- */
 
