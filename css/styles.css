@@ -11,7 +11,9 @@
   --hero-background: rgba(46, 47, 66, 0.7);
   --main: #ffffff;
 }
+
 /*  =================nulling styles===================== */
+
 h1,
 h2,
 h3,
@@ -19,15 +21,24 @@ p {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 ul {
   margin-bottom: 0;
   margin-top: 0;
   padding-left: 0;
 }
+
 .link {
   list-style: none;
   text-decoration: none;
 }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* ===============================container================= */
 
 .container {
@@ -37,7 +48,9 @@ ul {
   padding-left: 15px;
   padding-right: 15px;
 }
+
 /* ===================body===================== */
+
 body {
   font-family: "Roboto", sans-serif;
   background: var(--main);
@@ -47,19 +60,24 @@ body {
 .page-navigation.current {
   color: var(--pressed-state);
 }
+
 /* --------------header------------- */
+
 .header-page {
   display: flex;
   align-items: center;
 }
+
 .header-page-nav {
   display: flex;
   align-items: center;
 }
+
 .header-page-menu {
   display: flex;
   align-items: center;
 }
+
 .header-page-connect {
   display: flex;
   align-items: center;
@@ -68,6 +86,7 @@ body {
 .accent {
   color: var(--primary-brand);
 }
+
 .logo {
   margin-right: 76px;
   padding-top: 24px;
@@ -80,6 +99,7 @@ body {
   text-transform: uppercase;
   color: var(--dark);
 }
+
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -91,17 +111,21 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+
 .page-navigation:hover,
 .page-navigation:focus {
   color: var(--pressed-state);
 }
+
 .connection {
   font-style: normal;
   margin-left: auto;
 }
-.contacts.mail {
+
+.mail {
   margin-right: 40px;
 }
+
 .contacts {
   font-weight: 400;
   font-size: 16px;
@@ -109,30 +133,36 @@ body {
   letter-spacing: 0.02em;
   color: var(--text);
 }
+
 .contacts:hover,
 .contacts:focus {
   color: var(--pressed-state);
 }
+
 /* -----------------hero-------------- */
+
 .hero {
+  padding-top: 188px;
+  padding-bottom: 188px;
   background-color: var(--dark);
 }
+
 .hero-container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .hero-name {
-  padding-top: 188px;
-  padding-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main);
 }
+
 .hero-button {
-  margin-bottom: 188px;
+  margin-top: 48px;
   background: var(--primary-brand);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -144,6 +174,7 @@ body {
   letter-spacing: 0.04em;
   padding: 16px 32px;
   cursor: pointer;
+  border: none;
 }
 
 .hero-button:hover,
@@ -157,13 +188,16 @@ body {
 .priorities {
   display: flex;
 }
-.priorities-page:not(:last-child) {
-  padding-right: 24px;
+
+.page:not(:last-child) {
+  margin-right: 24px;
 }
+
 .priorities-page {
   padding-top: 120px;
   padding-bottom: 120px;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -176,22 +210,32 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
 .priorities-name {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+
 .priorities-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text);
 }
+
 /*------------------------ what are we doing----------------- */
+
+.doing {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .activities-item {
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -199,19 +243,21 @@ body {
   text-transform: capitalize;
   color: var(--dark);
 }
-.doing-img {
-  padding-bottom: 120px;
-}
-.doing-img:not(:last-child) {
-  padding-right: 24px;
+
+.doing-box:not(:last-child) {
+  margin-right: 24px;
 }
 
 .doing-page {
   display: flex;
 }
+
 /*-------------------------------- our team----------------------- */
+
 .team {
   background-color: var(--light);
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .team-section {
@@ -219,22 +265,22 @@ body {
 }
 
 .team-titel {
-  margin-bottom: 120px;
   background-color: var(--main);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+
 .team-titel:not(:last-child) {
   margin-right: 24px;
 }
+
 .team-page {
   padding: 32px 16px;
 }
 
 .team-item {
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -242,7 +288,9 @@ body {
   text-transform: capitalize;
   color: var(--dark);
 }
+
 .name {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -250,6 +298,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+
 .job-titel {
   font-size: 16px;
   line-height: 1.5;
@@ -259,9 +308,13 @@ body {
 }
 
 /*-------------------------footer------------------- */
+
 footer {
   background-color: var(--dark);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
+
 .logo-footer {
   color: var(--light);
   font-family: "Raleway";
@@ -271,29 +324,35 @@ footer {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .footer-item {
-  padding-top: 18px;
+  margin-top: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--accent);
   width: 264px;
 }
+
 .footer-container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
+
 /*----------------------------- portfolio-------------------- */
+
 /* ==============header========= */
-.portfolio-line {
+
+.line {
   border: 1px solid var(--accent);
   border-top: none;
 }
 
 /*---------------------------- our project-------------------- */
-
+.project {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .project-button {
   font-family: inherit;
   cursor: pointer;
@@ -308,19 +367,22 @@ footer {
   text-align: center;
   letter-spacing: 0.04em;
 }
+
 .project-button:hover,
 .project-button:focus {
   background-color: var(--pressed-state);
   color: var(--main);
 }
+
 .project-name {
-  margin: 0;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--dark);
 }
+
 .project-item {
   margin: 0;
   font-size: 16px;
@@ -330,30 +392,28 @@ footer {
 }
 
 .btn-menu {
-  margin-top: 96px;
   margin-bottom: 72px;
   display: flex;
   justify-content: center;
 }
+
 .btn-menu-item:not(:last-child) {
   margin-right: 24px;
 }
+
 .project-book {
   display: flex;
   flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  margin-bottom: 120px;
 }
 
 .project-titel {
   flex-basis: calc((100% - 48px) / 3);
 }
+
 .project-box {
   border: 1px solid var(--accent);
   border-top: none;
   padding: 32px 0 32px 16px;
-}
-.picture {
-  display: block;
 }
