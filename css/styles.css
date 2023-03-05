@@ -159,6 +159,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--main);
+  width: 512px;
 }
 
 .hero-button {
@@ -230,7 +231,6 @@ body {
 /*------------------------ what are we doing----------------- */
 
 .doing {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 
